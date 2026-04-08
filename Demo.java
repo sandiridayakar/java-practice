@@ -1,4 +1,4 @@
-
+import innerclass.*;
 
 abstract class car{
     abstract void drive(); //abstract method declaration
@@ -17,5 +17,13 @@ class Demo{
         car c = new Audi();
         c.drive();
         c.playMusic();
+
+        A obj = new A();
+        obj.car();
+
+        A.B obj1 = obj.new B();
+        obj1.carEngine();
+
+        
     }
 }
