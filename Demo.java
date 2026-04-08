@@ -1,3 +1,5 @@
+
+
 abstract class car{
     abstract void drive(); //abstract method declaration
     public void playMusic(){
@@ -15,6 +17,5 @@ class Demo{
         car c = new Audi();
         c.drive();
         c.playMusic();
-
     }
 }
